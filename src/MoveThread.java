@@ -43,6 +43,7 @@ class MoveThread implements Runnable{
                     vehicle.fuel_remain -= distance/vehicle.fuel_eco;
                     move_distance += distance;
                     distance = 0;
+                    break;
                 }
             }
             if(distance == 0){
