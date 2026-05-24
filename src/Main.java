@@ -1,19 +1,6 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-/* 자동차 달리는 비용 계산은 같은데
-음 일단 인원수 체크를 받고 그 값에 맞춰서 자동차 배정을 해줌.
-10인 이하면 자동차 100인 이하면 기차 300인 이하면 비행기
-
-기본값 다들 있고
- 각자의 연료량이 정해져있다. 각자의 연비가 잇고
- 따라서 거리 값을 받았을때 충전이 필요한 구간이 있음
- 충전을 할거임 충전소는 100km단위로 잇다고 가정
- 남은 연료에 충분히 넣을 연료 입력
- 그거 넣고 가격 측정14143
- 인당 얼마로나눔
-자동차 마다, 연료 용량, 기본 가격,
-* */
 class main {
     public static void main(String args[]) throws Exception {
 
